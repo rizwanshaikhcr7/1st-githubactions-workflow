@@ -1,12 +1,13 @@
 name: Rizwan shaikh
-on: 
+
+on:
   push:
-   branches: [ main ]
+    branches: [ main ]
 
-jobs: 
-    demo:
-      runs-on:  ubuntu-latest
+jobs:
+  demo:
+    runs-on: ubuntu-latest
 
-      steps:
-        - name: Greetings
-         run: echo "Hello"
+    steps:
+      - name: Greetings
+        run: echo "Hello"
